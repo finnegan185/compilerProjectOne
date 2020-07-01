@@ -1,0 +1,12 @@
+-- Testing function, boolean, if statements
+// Other type of comment
+
+function test1_Main returns boolean;
+    a: real is 10.8;
+begin
+    if (a = 5) or (7 > 6) then
+        return true;
+    else
+        return false;
+    endif;
+end;

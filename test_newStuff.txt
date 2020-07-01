@@ -1,0 +1,22 @@
+// testing everything I added for assignment
+function test_newStuff returns boolean;
+begin
+    10 => 4;
+    case else endcase endif if others real then when
+    or not
+    1 = 1;
+    1 /= 3;
+    4 > 8;
+    3 >= 2;
+    7 <= 3;
+    3 - 1;
+    4 / 1;
+    3 rem 10;
+    3 ** 1;
+    1.00e-2;
+    1.2;
+    1.;
+    48E2;
+    true;
+    false;
+end;
