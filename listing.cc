@@ -86,7 +86,5 @@ void displayErrors()
 		cout << " " << errors.front() << endl;
 		errors.pop();
 	}
-	// if (error != "")
-	// 	printf("%s\n", error.c_str());
-	// error = "";
+
 }

@@ -1,8 +1,8 @@
--- function with 5 lexical errors
+-- function with 3 lexical errors
 
 function main returns integer;
     variable_: real is 4;
     1kick: real is 10.4e;
 begin
-    10.9. @ 7 and 6 =< 2;
+    10.9. @ 7 and 6 > 2;
 end;

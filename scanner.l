@@ -23,7 +23,7 @@ id			[A-Za-z][A-Za-z0-9]*(\_?[A-Za-z0-9]+)*
 digit		[0-9]
 int			{digit}+
 punc		[\(\),:;]
-real_lit	{int}+(\.?{int}*)?([eE][+\-]?{int}+)?
+real_lit	{int}+(\.?{int}*)?([eE][+|-]?{int}+)?
 bool_lit	[true|false]
 %%
 
